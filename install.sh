@@ -36,8 +36,22 @@ pkg install nano -y
 pkg install vim -y
 pkg install mc -y
 pkg install figlet -y
+git clone https://github.com/rapid7/metasploit-framework
+cd metasploit-framework 
+gem install bundler
+gem install bundle 
+bundle update 
+bundle update nokogiri
+gem install nokogiri -- --use-system-libraries
+bundle install -j5 
+cd $HOME/metasploit-framework/config
+curl -LO https://Auxilus.github.io/database.yml
+mkdir -p $PREFIX/var/lib/postgresql
+wget https://github.com/termux/termux-packages/files/2912002/fix-ruby-bigdecimal.sh.txt
+bash fix-ruby-bigdecimal.sh.txt
 pkg install unstable-repo -y
 pkg install metasploit -y
+
 clear
 
 figlet CLAYS  
