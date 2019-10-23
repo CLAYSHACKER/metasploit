@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 #
-# Obfuscate by @CesarHackGray
-# Contacta https://t.me/CesarGray
-# Channel: https://www.youtube.com/channel/UCjs0N8PbEo-se0r_4O_svNQ
-#
+# Obfuscate by @Clayshacker
+# Contacta https://t.me/Clayshacker
+# Channel: https://www.youtube.com/channel/UCDmwCTzunUqrQx6BxCAPkQQ
+# NINGUN SISTEMA ES SEGURO 
 #
 CesarHackGray=$(mktemp)
 base64 -d  >${CesarHackGray}<<DIXIE
