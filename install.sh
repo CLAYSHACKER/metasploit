@@ -36,7 +36,8 @@ pkg install nano -y
 pkg install vim -y
 pkg install mc -y
 pkg install figlet -y
-
+pkg install unstable-repo -y
+pkg install metasploit -y
 clear
 
 figlet CLAYS  
